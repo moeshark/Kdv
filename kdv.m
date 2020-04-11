@@ -1,4 +1,5 @@
 % training the reservoir to predict the KdV equation
+% Author: Mahmoud Sharkawi
 %% setting parameters
 clear;
 ModelParams.N = 64;  %size of time series data N

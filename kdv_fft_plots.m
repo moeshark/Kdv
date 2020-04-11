@@ -1,4 +1,5 @@
 % script to generate some plots of the integration scheme
+% Author: Mahmoud Sharkawi
 
 ModelParams.N = 128;
 ModelParams.P = 6*pi;
@@ -9,8 +10,8 @@ ModelParams.xi = -3;
 N = ModelParams.N; % size of time series data Q
 P = ModelParams.P; % periodicity length
 dt = ModelParams.dt; % time step
-M = ModelParams.M; 
-h = ModelParams.xi;
+M = ModelParams.M; % number of time steps
+h = ModelParams.xi; % non-linearity coefficient
 
 t= dt*(1:1:M); %time
 x = P/N*(-N/2:N/2-1)'; 

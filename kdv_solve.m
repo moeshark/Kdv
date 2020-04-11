@@ -1,7 +1,6 @@
 %         Solve KdV eq. u_t + 2h*uu_x + u_xxx = 0 on [-L,L] by
-%         FFT with integrating factor v = exp(-ik^3t)*u-hat. Code has been 
-%         adapted from https://people.maths.ox.ac.uk/trefethen/spectral.html
-%         p27.m and modified extensively to fit the KdV project
+%         FFT with integrating factor v = exp(-ik^3t)*u-hat.
+%         Author: Mahmoud Sharkawi
 
 function uu = kdv_solve(ModelParams, init)
 
